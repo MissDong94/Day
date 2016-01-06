@@ -6,7 +6,5 @@ function Parent:new( o )
 	self.__index=self
 	return o
 end
-function Parent:test(  )
-	print("Parent:test")
-end
+
 return Parent
